@@ -71,7 +71,6 @@ First  a cellular connection is established using the credentials that uses a de
 
 <img width="476" alt="Screen Shot 2023-06-15 at 4 57 23 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/1d41e63a-739f-4b9d-8657-62a92db71801">
 
-
 After execution of the above program, the status is displayed on the LCD as shown in the picture.
 
  To run the file on the raspberry pi, run `$ sudo python temp_humidity.py`
