@@ -64,12 +64,13 @@ sudo reboot`
 A Temperature and Humidity Grove sensor is used in this project to measure relative humidity and temperature. It provides relative humidity measurement expressed as a percentage of the ration of moisture in the air to the maximum amount that can be held in the air at that temperature. The relative humidity changes with temperature as air becomes hotter and it holds more moisture.
 
 Now, we can move back to the temperature and humidity monitoring. The following program (temphumidity_sensor_led.py) checks the temperature and humidity sensor output sets the text on LCD.
-<img width="620" alt="Screen Shot 2023-06-14 at 11 57 13 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/71bf82cf-8ac4-4747-a74c-f597376d69f9">
+
+<img width="639" alt="Screen Shot 2023-06-15 at 5 15 13 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/434aa10e-fa47-407e-9dd3-748cb793cdab">
 
 
 First  a cellular connection is established using the credentials that uses a devicekey obtained from Hologram dashboard. 
 
-<img width="476" alt="Screen Shot 2023-06-15 at 4 57 23 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/1d41e63a-739f-4b9d-8657-62a92db71801">
+<img width="476" alt="Screen Shot 2023-06-15 at 5 15 58 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/e1568409-9370-460e-a18c-87d899d52996">
 
 After execution of the above program, the status is displayed on the LCD as shown in the picture.
 
@@ -78,11 +79,13 @@ After execution of the above program, the status is displayed on the LCD as show
 
 
 After reading the digital input from port D3 it displays the sensor value on the LCD and it also sends notification using cellular network if the sensor value  for temperature or humidity exceeds the predefined threshold values.
-<img width="637" alt="Screen Shot 2023-06-14 at 11 58 32 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/16eb351e-85a7-4585-8193-1a39cfc3a5cd">
+
+<img width="642" alt="Screen Shot 2023-06-15 at 5 16 13 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/75c7d6b7-36b5-4a99-b447-494443c1eab9">
 
 
 Configure routes in Hologram dash board to send the notifications (e.g., SMS, email etc).
-<img width="652" alt="Screen Shot 2023-06-14 at 11 58 43 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/b717dd00-f9de-43e8-bf13-9005ad62545f">
+
+<img width="650" alt="Screen Shot 2023-06-15 at 5 16 28 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/0bee4c77-dbae-45f9-b5c6-4e950de3c1bf">
 
 **Motion Detection Device**
 
@@ -102,7 +105,7 @@ Grove - Adjustable PIR Motion Sensor - It uses passive infrared  motion sensor, 
 
 Animals, people or various objects emit heat energy in the form of radiation. This radiation is not visibile to human eye as it radiates at infrared wavelengths, but it can be detected PIR-based motion detector. These are commonly used in burglar alarms.
 
-<img width="472" alt="Screen Shot 2023-06-15 at 4 50 20 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/94ace4a3-4ddd-4bd1-8ef5-b0a038b56e3a">
+<img width="362" alt="Screen Shot 2023-06-15 at 5 16 45 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/21a50320-8f0f-4f37-acbe-21b807424b74">
 
 The following program (motion_sensor_led.py) checks the water sensor output sets the text on LCD.
 After execution of the above program, the status is displayed on the LCD.
@@ -110,12 +113,13 @@ After execution of the above program, the status is displayed on the LCD.
 ` $ sudo python motion_sensor_led.py`
 
 First  a cellular connection is established using the credentials that uses a devicekey obtained from Hologram dashboard.
-<img width="455" alt="Screen Shot 2023-06-15 at 4 50 40 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/5104cf6f-b6e3-42bc-a5b9-99ec3e7c7975">
+
+<img width="394" alt="Screen Shot 2023-06-15 at 5 17 00 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/24820979-a4ae-4468-9f0d-93d31b5f7127">
 
 After reading the digital input from port D3 it determines if motion is detected and displays the message on the LCD and it also sends notification using cellular network if there is a movement.
 
 Configure routes in Hologram dash board to send the notifications (e.g., SMS, email etc).
 
-<img width="633" alt="Screen Shot 2023-06-15 at 4 50 58 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/493d4aa4-2b06-4135-9b9a-280b4e7cf67b">
+<img width="642" alt="Screen Shot 2023-06-15 at 5 17 12 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/547b8138-3631-46a9-b7ad-15316359a121">
 
-<img width="641" alt="Screen Shot 2023-06-15 at 4 51 04 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/a69e8e34-38d5-4b82-b0f7-55fa43666ab2">
+<img width="687" alt="Screen Shot 2023-06-15 at 5 17 19 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/27b3f25d-8bb2-4e9b-8e0d-8a1ae407a006">
