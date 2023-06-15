@@ -23,16 +23,16 @@ Grove Temperature and Humidity sensor works with digital I/O pins and it can be 
 The installation instructions for Grove Pi Zero and Hologram SIM are as follows:
 
 
-      1.) Download the latest version of Raspibian from the Raspberry pi download link. Install the Raspberry Pi image on a SD card using instructions provided in their installation guide at https://www.raspberrypi.com/documentation/computers/getting-started.html.
+1.) Download the latest version of Raspibian from the Raspberry pi download link. Install the Raspberry Pi image on a SD card using instructions provided in their installation guide at https://www.raspberrypi.com/documentation/computers/getting-started.html.
 
-      2, Install Grove Pi software and reboot using following commands:
+2.) Install Grove Pi software and reboot using following commands:
      
 `sudo curl -kL dexterindustries.com/update_grovepi|bash`
 `sudo reboot`
 
-      3. Grove Firmware Update
+3. Grove Firmware Update
 
-        Run the firmware update without any sensors or HDMI connected to the pi. Run the following commands to update the firmware:
+Run the firmware update without any sensors or HDMI connected to the pi. Run the following commands to update the firmware:
 
 `cd /home/pi/Dexter/GrovePi/Firmware`
 `sudo bash firmware_update.sh`
@@ -44,7 +44,7 @@ sudo bash install.sh
 sudo reboot`
 
 
-    4.) Get a Hologram SIM and register it at the Hologram portal.
+4.) Get a Hologram SIM and register it at the Hologram portal.
 <img width="295" alt="Screen Shot 2023-06-14 at 11 54 51 PM" src="https://github.com/arunjo5/Remote-Monitoring-with-Cellular-IoT/assets/136642643/09884d18-035c-46b6-bf15-b85b1e0df3d2">
 
   5.) Lastly, follow the Hologram's documentation to install Hologram's Command Line Interface (CLI) and test the connectivity as shown in the documentation. Hologram CLI and Python SDK can be installed using a curl command as shown below :
